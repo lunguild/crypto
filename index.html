@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Hamster Game</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>lunguild</h1>
+            <div class="stats">
+                <div class="coin-counter">
+                    <span id="coins">0</span> TON
+                </div>
+                <div class="per-second">
+                    <span id="per-second">0</span> TON/s
+                </div>
+            </div>
+        </div>
+
+        <div class="main-game">
+            <button id="click-btn" class="click-area">
+                <img src="logo.png" alt="TON Coin" class="coin-img">
+                <span class="click-text">CLICK TO MINE</span>
+            </button>
+        </div>
+
+        <div class="upgrades">
+            <h2>🛠️ Upgrades</h2>
+            <div class="upgrades-list" id="upgrades-list">
+                <!-- Upgradelar shu yerda dinamik ravishda yuklanadi -->
+            </div>
+        </div>
+
+        <div class="achievements">
+            <h2>🏆 Achievements</h2>
+            <div class="achievements-list" id="achievements-list">
+                <!-- Achievements shu yerda -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
